@@ -23,6 +23,7 @@ export default function () {
 
   // Loop through the data and make a POST request for each row
   parsedData.forEach(row => {
+    // Extract the username and password from the row
     const [coulmn1,coulmn2] = row;
 
     const data = JSON.stringify({
