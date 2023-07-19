@@ -1,6 +1,6 @@
-[![k6](https://img.shields.io/badge/k6-7D64FF.svg?style=for-the-badge&logo=k6&logoColor=white)](https://github.com/grafana/k6)![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+# k6-csv-load-testing
 
-# k6-faker-load-testing
+[![k6](https://img.shields.io/badge/k6-7D64FF.svg?style=for-the-badge&logo=k6&logoColor=white)](https://github.com/grafana/k6)![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
 
 k6-csv is a small project that demonstrates how to use the CSV file with [k6](https://k6.io/), a modern load testing tool.
 This project uses k6 to test the authentication of an API using CSV data. The project includes a CSV file with login credentials and a k6 script that makes POST requests to the API for each set of credentials. The script then checks the responses for various conditions, including status codes and response times.
